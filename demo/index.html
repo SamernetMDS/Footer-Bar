@@ -13,24 +13,18 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
     <title>seed-element Demo</title>
-    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
-    <link rel="import" href="../seed-element.html">
+    
+      <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="../footer-bar.html">
   </head>
-  <body>
+  <body style="margin: 0px; padding: 0px;">
 
-    <p>An example of <code>&lt;seed-element&gt;</code>:</p>
+    <p>An example of <code>&lt;footer-bar&gt;</code>:</p>
 
-    <button>Say Something</button>
+    <footer-bar fancy>
+      
+    </footer-bar>
 
-    <seed-element author='{"name": "Lord Meowser", "image": "http://placekitten.com/g/200/300"}' fancy>
-      <h2>Hello seed-element</h2>
-    </seed-element>
-
-    <script>
-      document.querySelector('button').addEventListener('click', function() {
-        alert(document.querySelector('seed-element').sayHello('Hallo!'));
-      });
-    </script>
 
   </body>
 </html>

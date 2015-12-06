@@ -1,19 +1,19 @@
 {
-  "name": "seed-element",
+  "name": "footer-bar",
   "version": "1.0.0",
   "authors": [
-    "Anonymous <anonymous@example.com>"
+    "Felix Astner <me@felixastner.de>"
   ],
   "description": "An element providing a solution to no problem in particular.",
   "keywords": [
     "web-component",
     "web-components",
     "polymer",
-    "seed"
+    "footer-bar"
   ],
-  "main": "seed-element.html",
+  "main": "footer-bar.html",
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/<USERNAME>/seed-element/",
+  "homepage": "https://github.com/SamernetMDS/Footer-Bar",
   "ignore": [
     "/.*",
     "/test/",
