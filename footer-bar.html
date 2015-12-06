@@ -8,7 +8,7 @@ Code distributed by Google as part of the polymer project is also
 subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
 -->
 
-<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="../polymer/polymer.html">
 <!--
 An element providing a solution to no problem in particular.
 
@@ -22,12 +22,22 @@ Example:
 
   <style>
     :host {
-      display: block;
+      display: flex;
       box-sizing: border-box; 
         background-color: #e4e4e4;        
         width: 100%;
         bottom: 0px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
     }
+      
+      #what, div#content {
+          vertical-align: middle;
+          margin: 0px 10px;
+          padding: 0px;
+      }
 
       #what {
         color: #005578;
@@ -37,6 +47,9 @@ Example:
         margin: 0px;
       }
       
+      div#content {
+          
+      }
       
       
       
@@ -44,6 +57,9 @@ Example:
 
   <template>
     <p id="what">{{what}}</p>
+    <div id="content">
+      <content select="contact-panel"></content>
+    </div>
   </template>
 
 </dom-module>

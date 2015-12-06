@@ -16,14 +16,29 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     
       <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
     <link rel="import" href="../footer-bar.html">
+      <link rel="import" href="../bower_components/contact-panel/contact-panel.html" >
+      
   </head>
   <body style="margin: 0px; padding: 0px;">
 
     <p>An example of <code>&lt;footer-bar&gt;</code>:</p>
 
     <footer-bar fancy>
-      
     </footer-bar>
+      
+      <br />
+      <br />
+      <br />
+      
+    <footer-bar fancy>
+        <contact-panel 
+                   telephone="0123-456789" 
+                   email="max@example.com" 
+                   address='{"longitude": "-122.399677", "latitude": "37.786971", "postal": "Wikimedia Headquarters"}' fancy>
+        </contact-panel>
+    </footer-bar>
+      
+      
 
 
   </body>
